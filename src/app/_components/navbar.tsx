@@ -1,21 +1,23 @@
+import Link from "next/link";
+
 export const Navbar = () => {
   return (
-    <nav>
-      <ul className="w-[320px] list-none space-x-2 sm:hidden md:flex">
-        <li className="py-3 leading-[24px] duration-200 hover:border-b-2 hover:border-blue-400 hover:text-blue-400">
-          <a href="" className="">
+    <nav className="flex shrink">
+      <ul className=" list-none space-x-2 sm:hidden md:flex md:justify-center">
+        <li className="leading-[24px] duration-200  hover:text-blue-400">
+          <Link href="" className="hover:border-b-2 hover:border-blue-400">
             Firma
-          </a>
+          </Link>
         </li>
-        <li className="py-3 leading-[24px] duration-200 hover:border-b-2 hover:border-blue-400 hover:text-blue-400">
-          <a href="" className="">
+        <li className=" leading-[24px] duration-200  hover:text-blue-400">
+          <Link href="" className="hover:border-b-2 hover:border-blue-400">
             Portfolio
-          </a>
+          </Link>
         </li>
-        <li className="py-3 leading-[24px] duration-200 hover:border-b-2 hover:border-blue-400 hover:text-blue-400">
-          <a href="" className="">
+        <li className=" leading-[24px] duration-200  hover:text-blue-400">
+          <Link href="" className="hover:border-b-2 hover:border-blue-400">
             Kontakt
-          </a>
+          </Link>
         </li>
       </ul>
     </nav>
