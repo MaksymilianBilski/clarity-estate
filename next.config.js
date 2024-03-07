@@ -6,7 +6,7 @@ await import("./src/env.js");
 
 /** @type {import("next").NextConfig} */
 const config = {
-  basePath: "/clarity-estate",
+  basePath: "/clarity-estatee",
   images: {
     formats: ["image/webp"],
   },
