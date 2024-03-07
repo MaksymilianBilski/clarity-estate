@@ -17,7 +17,6 @@ export const Header = () => {
         <div className="flex">
           <Navbar />
           <HamburgerMenu />
-
           <HeaderContact />
         </div>
       </div>
