@@ -11,7 +11,7 @@ const inter = Inter({
 
 export const metadata = {
   title: "Clarity Estate",
-  description: "",
+  description: "Clarity Estate",
   icons: [{ rel: "icon", url: "/logo1.jpg" }],
 };
 
