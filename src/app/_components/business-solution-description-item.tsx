@@ -1,4 +1,4 @@
-export const BusinessSolutionItem = () => {
+export const BusinessSolutionDescriptionItem = (props: { svg: String }) => {
   return (
     <li className="index-main-lorem__item">
       <div className="index-main-lorem__icon">
